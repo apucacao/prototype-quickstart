@@ -1,4 +1,4 @@
-# react-prototype
+# Prototype quickstart
 
 Simple template for building prototypes.
 
@@ -13,8 +13,8 @@ Comes bundled with the following libs:
     npm install
 
 To start a server on http://localhost:9000
-    
-    npm start 
+
+    npm start
 
 To build the bundle:
 
