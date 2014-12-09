@@ -3,17 +3,22 @@
 'use strict';
 
 var React = require('react/addons');
-var Link = require('react-router/Link');
+var Router = require('react-router');
+var RouteHandler = Router.RouteHandler;
+var Link = Router.Link;
 
-module.exports = React.createClass({
+var Prototype = React.createClass({
   render: function() {
     return (
       <div>
         <ul>
           <li><Link to="example">Example</Link></li>
         </ul>
-        <this.props.activeRouteHandler />
+
+        <RouteHandler/>
       </div>
     );
   }
 });
+
+module.exports = Prototype;
